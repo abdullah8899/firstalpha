@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./jquery-3.5.1.min.js"></script>
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./jqcrud.js"></script>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./jqstyles.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <h1>Recipes Api client</h1>
+    <div class="form-group">
+      <label for="Title">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        name="title"
+        id="title"
+        aria-describedby="titlehelp"
+        placeholder="Title of the recipe"
+      />
+      <small id="titlehelp" class="form-text text-muted"
+        >Enter title of the Recipe</small
+      >
+    </div>
+    <div class="form-group">
+      <label for="body">Body</label>
+      <input
+        type="text"
+        class="form-control"
+        name="body"
+        id="body"
+        aria-describedby="Recipe details"
+        placeholder="Enter Recipe"
+      />
+      <small id="bodyhelp" class="form-text text-muted">Enter Recipe</small>
+    </div>
+    <button id="addbtn" class="btn btn-info">Add recipe</button>
+    <div id="recipes">
+      loading...
+    </div>
+  </body>
+</html>

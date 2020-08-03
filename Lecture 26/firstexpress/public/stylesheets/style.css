@@ -1,0 +1,8 @@
+h1 {
+  background-color: blue;
+  color: wheat;
+}
+#topmenu > li {
+  display: inline;
+  padding: 10px;
+}
